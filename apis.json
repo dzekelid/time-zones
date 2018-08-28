@@ -1,0 +1,109 @@
+{
+	"name": "Streadata.io API Gallery - Time Zones",
+	"description": "This is a repository of time zones APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/time-zones.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://time-zones.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "511 Bay Area",
+			"x-api-slug": "511-bay-area",
+			"description": "511 is your free one-stop phone and web source for up-to-the minute Bay Area traffic, transit, rideshare, bicycling, and parking information.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_511_128x128_400x400.jpg",
+			"humanURL": "http://www.511.org/",
+			"baseURL": "https://api.511.org//transit",
+			"tags": "Time Zones",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-zones/master/_listings/511-bay-area/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Roku",
+			"x-api-slug": "roku",
+			"description": "Roku provides the simplest way to stream entertainment to your TV. On your terms. With thousands of available channels to choose from.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1134-roku.jpg",
+			"humanURL": "http://www.roku.com",
+			"baseURL": "https:///",
+			"tags": "Time Zones",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-zones/master/_listings/roku/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EasyCron",
+			"x-api-slug": "easycron",
+			"description": "EasyCron provides the most stable Cron Job Services. Here you can schedule cron jobs with execution logs, Email notifications, run time predictions and a bunch of other featuers!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1806-easycron.jpg",
+			"humanURL": "http://easycron.com",
+			"baseURL": "https://www.easycron.com//rest",
+			"tags": "Time Zones",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-zones/master/_listings/easycron/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Transport for London Unified",
+			"x-api-slug": "transport-for-london-unified",
+			"description": "We are the integrated transport authority responsible for delivering Mayor of London Sadiq Khans strategy and commitments on transport. We run the day-to-day operation of the Capitals public transport network and manage Londons main roads.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png",
+			"humanURL": "https://tfl.gov.uk/",
+			"baseURL": "https://api.tfl.gov.uk//",
+			"tags": "Time Zones",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-zones/master/_listings/transport-for-london-unified/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RingCentral",
+			"x-api-slug": "ringcentral",
+			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
+			"humanURL": "http://www.ringcentral.com",
+			"baseURL": "https://platform.ringcentral.com//",
+			"tags": "Time Zones",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-zones/master/_listings/ringcentral/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Time Zones",
+	"include": [
+		{
+			"name": "511 Bay Area",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-zones/master/_listings/511-bay-area/apis.yaml"
+		},
+		{
+			"name": "Roku",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-zones/master/_listings/roku/apis.yaml"
+		},
+		{
+			"name": "EasyCron",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-zones/master/_listings/easycron/apis.yaml"
+		},
+		{
+			"name": "Transport for London Unified",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-zones/master/_listings/transport-for-london-unified/apis.yaml"
+		},
+		{
+			"name": "RingCentral",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-zones/master/_listings/ringcentral/apis.yaml"
+		}
+	]
+}
